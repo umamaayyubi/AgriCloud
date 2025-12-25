@@ -16,17 +16,19 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
+      # 🌐 FRONTEND BUILD
       - name: Build frontend image
         run: |
-          docker build -t umamaayyubi817/agricloud-frontend:latest .
+          docker build -f frontend/Dockerfile -t umamaayyubi817/agricloud-frontend:latest ./frontend
 
       - name: Push frontend image
         run: |
           docker push umamaayyubi817/agricloud-frontend:latest
 
+      # 🔥 BACKEND BUILD
       - name: Build backend image
         run: |
-          docker build -t umamaayyubi817/agricloud-backend:latest .
+          docker build -f backend/Dockerfile -t umamaayyubi817/agricloud-backend:latest ./backend
 
       - name: Push backend image
         run: |
@@ -51,4 +53,5 @@ jobs:
             kubectl apply -f k8s/
             kubectl rollout restart deployment/agricloud-backend -n agricloud
             kubectl rollout restart deployment/agricloud-frontend -n agricloud
+
 
