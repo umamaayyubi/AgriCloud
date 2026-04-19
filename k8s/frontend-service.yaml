@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: agricloud-frontend-service
+  namespace: agricloud
+spec:
+  selector:
+    app: agricloud-frontend
+  ports:
+    - name: http
+      port: 80
+      targetPort: 80
+  type: ClusterIP

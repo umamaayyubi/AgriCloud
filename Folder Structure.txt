@@ -1,0 +1,49 @@
+agricloud/
+├── .github/
+│   └── workflows/
+│       └── ci-cd.yaml
+├── k8s/
+│   ├── namespace.yaml
+│   ├── frontend-deployment.yaml
+│   ├── frontend-service.yaml
+│   ├── ingress.yaml
+│   └── github-actions-rbac.yaml
+├── public/
+│   └── logo.svg
+├── src/
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── LanguageSwitcher.jsx
+│   │   ├── ThemeToggle.jsx
+│   │   ├── SummaryCards.jsx
+│   │   ├── StorageForm.jsx
+│   │   ├── StorageTable.jsx
+│   │   ├── EmptyState.jsx
+│   │   ├── SearchBar.jsx
+│   │   └── ExportImportPanel.jsx
+│   ├── data/
+│   │   └── defaultStorageData.js
+│   ├── locales/
+│   │   ├── en.json
+│   │   ├── hi.json
+│   │   ├── te.json
+│   │   ├── ta.json
+│   │   ├── bn.json
+│   │   ├── mr.json
+│   │   ├── gu.json
+│   │   ├── kn.json
+│   │   ├── ml.json
+│   │   └── pa.json
+│   ├── utils/
+│   │   └── localStorage.js
+│   ├── main.jsx
+│   ├── App.jsx
+│   ├── index.css
+│   └── i18n.js
+├── .dockerignore
+├── Dockerfile
+├── README.md
+├── index.html
+├── nginx.conf
+├── package.json
+└── vite.config.js

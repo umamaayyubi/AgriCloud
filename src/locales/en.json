@@ -1,0 +1,110 @@
+{
+  "accessibility": {
+    "skipToContent": "Skip to content"
+  },
+  "navbar": {
+    "subtitle": "Agricultural storage management",
+    "language": "Language",
+    "switchToDark": "Switch to dark mode",
+    "switchToLight": "Switch to light mode"
+  },
+  "hero": {
+    "eyebrow": "Premium storage dashboard",
+    "title": "Manage every crop storage record with clarity and confidence.",
+    "description": "Track quantities, capacities, locations, and stock status in one polished multilingual dashboard that persists data locally on your device.",
+    "primaryAction": "Add storage record"
+  },
+  "summary": {
+    "sectionLabel": "Storage summary",
+    "totalRecords": "Total records",
+    "totalRecordsNote": "All storage entries currently saved locally.",
+    "totalQuantity": "Total quantity",
+    "totalQuantityNote": "Combined crop quantity across all storage entries.",
+    "totalCapacity": "Total capacity",
+    "totalCapacityNote": "Overall storage capacity available in your records."
+  },
+  "form": {
+    "sectionKicker": "Record management",
+    "addTitle": "Add a storage record",
+    "editTitle": "Edit storage record",
+    "cropName": "Crop name",
+    "quantity": "Quantity",
+    "location": "Location",
+    "capacity": "Capacity",
+    "status": "Status",
+    "addRecord": "Add record",
+    "updateRecord": "Update record",
+    "quantityHelper": "Use numeric values only.",
+    "capacityHelper": "Capacity must be greater than zero.",
+    "placeholders": {
+      "cropName": "e.g. Wheat",
+      "quantity": "e.g. 250",
+      "location": "e.g. West Warehouse",
+      "capacity": "e.g. 500"
+    }
+  },
+  "tools": {
+    "sectionKicker": "Search and backup",
+    "title": "Find, filter, export, and restore",
+    "description": "Search by crop, location, or status, filter your records, export a backup JSON file, or import an existing backup."
+  },
+  "search": {
+    "searchLabel": "Search records",
+    "searchPlaceholder": "Search by crop, location, or status",
+    "filterByStatus": "Filter by status",
+    "allStatuses": "All statuses"
+  },
+  "table": {
+    "sectionKicker": "Storage inventory",
+    "title": "Storage records",
+    "visibleRecords": "Visible records:",
+    "crop": "Crop",
+    "quantity": "Quantity",
+    "location": "Location",
+    "capacity": "Capacity",
+    "status": "Status",
+    "actions": "Actions"
+  },
+  "status": {
+    "available": "Available",
+    "lowStock": "Low Stock",
+    "full": "Full"
+  },
+  "actions": {
+    "edit": "Edit",
+    "delete": "Delete",
+    "cancel": "Cancel",
+    "clearAll": "Clear all records",
+    "resetToDemo": "Reset to starter data",
+    "exportJson": "Export JSON",
+    "importJson": "Import JSON"
+  },
+  "empty": {
+    "title": "No storage records yet",
+    "description": "Create your first storage record to start managing crop inventory in AgriCloud.",
+    "addFirstRecord": "Add first record",
+    "filteredTitle": "No matching records found",
+    "filteredDescription": "Try changing your search term or status filter to see more results.",
+    "clearFilters": "Clear filters"
+  },
+  "messages": {
+    "recordAdded": "Storage record added successfully.",
+    "recordUpdated": "Storage record updated successfully.",
+    "recordDeleted": "Storage record deleted successfully.",
+    "recordsReset": "Storage records reset to starter data.",
+    "recordsCleared": "All local storage records cleared.",
+    "languageUpdated": "Language updated successfully.",
+    "importSuccess": "Records imported successfully.",
+    "importError": "Unable to import the selected JSON file.",
+    "deleteConfirm": "Are you sure you want to delete this storage record?",
+    "resetConfirm": "Reset all local records to starter demo data?",
+    "clearAllConfirm": "Are you sure you want to clear all local records?"
+  },
+  "validation": {
+    "cropNameRequired": "Crop name is required.",
+    "locationRequired": "Location is required.",
+    "quantityInvalid": "Quantity must be zero or greater.",
+    "capacityInvalid": "Capacity must be greater than zero.",
+    "quantityExceedsCapacity": "Quantity cannot exceed capacity."
+  }
+}
