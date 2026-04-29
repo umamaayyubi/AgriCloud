@@ -8,7 +8,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-    - host: agricloud.example.com
+    - host: agricloud.54.165.36.165.nip.io
       http:
         paths:
           - path: /
